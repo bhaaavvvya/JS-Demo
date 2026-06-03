@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment-3</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+ 
+    <header>
+      <h1 id="greeting">Hello</h1>
+    </header>
+ 
+    <div class="boxes">
+      <div class="box" id="red"    onclick="toggleColor(this, 'red')">Red</div>
+      <div class="box" id="blue"   onclick="toggleColor(this, 'blue')">Blue</div>
+      <div class="box" id="green"  onclick="toggleColor(this, 'green')">Green</div>
+      <div class="box" id="yellow" onclick="toggleColor(this, 'yellow')">Yellow</div>
+    </div>
+ 
+    <div class="controls">
+      <input type="text" id="nameInput" placeholder="Enter your name" />
+      <button onclick="greet()">Greet</button>
+    </div>
+    <p class="hint">Click a box to colour it · Press Enter or click Greet</p>
+ 
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
